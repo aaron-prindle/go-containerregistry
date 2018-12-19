@@ -19,10 +19,10 @@ import (
 
 	"net/http"
 
-	"github.com/google/go-containerregistry/pkg/v1/remote"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/remote"
 
-	"github.com/google/go-containerregistry/pkg/authn"
-	"github.com/google/go-containerregistry/pkg/name"
+	"github.com/aaron-prindle/go-containerregistry/pkg/authn"
+	"github.com/aaron-prindle/go-containerregistry/pkg/name"
 	"github.com/spf13/cobra"
 )
 

@@ -22,11 +22,11 @@ import (
 	"os"
 	"sync"
 
-	"github.com/google/go-containerregistry/pkg/authn"
-	"github.com/google/go-containerregistry/pkg/ko/build"
-	"github.com/google/go-containerregistry/pkg/ko/publish"
-	"github.com/google/go-containerregistry/pkg/ko/resolve"
-	"github.com/google/go-containerregistry/pkg/name"
+	"github.com/aaron-prindle/go-containerregistry/pkg/authn"
+	"github.com/aaron-prindle/go-containerregistry/pkg/ko/build"
+	"github.com/aaron-prindle/go-containerregistry/pkg/ko/publish"
+	"github.com/aaron-prindle/go-containerregistry/pkg/ko/resolve"
+	"github.com/aaron-prindle/go-containerregistry/pkg/name"
 )
 
 func gobuildOptions() ([]build.Option, error) {

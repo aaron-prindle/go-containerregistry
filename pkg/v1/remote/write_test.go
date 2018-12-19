@@ -30,13 +30,13 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/google/go-containerregistry/pkg/authn"
-	"github.com/google/go-containerregistry/pkg/name"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/partial"
-	"github.com/google/go-containerregistry/pkg/v1/random"
-	"github.com/google/go-containerregistry/pkg/v1/remote/transport"
-	"github.com/google/go-containerregistry/pkg/v1/stream"
+	"github.com/aaron-prindle/go-containerregistry/pkg/authn"
+	"github.com/aaron-prindle/go-containerregistry/pkg/name"
+	v1 "github.com/aaron-prindle/go-containerregistry/pkg/v1"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/partial"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/random"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/remote/transport"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/stream"
 )
 
 func mustNewTag(t *testing.T, s string) name.Tag {

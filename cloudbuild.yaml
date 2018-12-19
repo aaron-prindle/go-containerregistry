@@ -1,19 +1,19 @@
 steps:
 # Build the ko binary.
 - name: gcr.io/cloud-builders/go:debian
-  env: ['PROJECT_ROOT=github.com/google/go-containerregistry']
-  args: ['install', 'github.com/google/go-containerregistry/cmd/ko']
+  env: ['PROJECT_ROOT=github.com/aaron-prindle/go-containerregistry']
+  args: ['install', 'github.com/aaron-prindle/go-containerregistry/cmd/ko']
 
 # Use the ko binary to build the crane builder image.
 - name: gcr.io/cloud-builders/go:debian
   env: ['GOPATH=/workspace/gopath', 'KO_DOCKER_REPO=gcr.io/$PROJECT_ID']
   entrypoint: /workspace/gopath/bin/ko
   dir: gopath/src
-  args: ['publish', '-P', 'github.com/google/go-containerregistry/cmd/crane']
+  args: ['publish', '-P', 'github.com/aaron-prindle/go-containerregistry/cmd/crane']
 
 # Use the crane builder to retag the crane builder.
-- name: gcr.io/$PROJECT_ID/github.com/google/go-containerregistry/cmd/crane
-  args: ['copy', 'gcr.io/$PROJECT_ID/github.com/google/go-containerregistry/cmd/crane', 'gcr.io/$PROJECT_ID/crane']
+- name: gcr.io/$PROJECT_ID/github.com/aaron-prindle/go-containerregistry/cmd/crane
+  args: ['copy', 'gcr.io/$PROJECT_ID/github.com/aaron-prindle/go-containerregistry/cmd/crane', 'gcr.io/$PROJECT_ID/crane']
 
 # Use the crane builder to get the crane builder's digest.
 - name: gcr.io/$PROJECT_ID/crane

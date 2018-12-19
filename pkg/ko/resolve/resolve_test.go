@@ -23,9 +23,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/google/go-containerregistry/pkg/name"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/random"
+	"github.com/aaron-prindle/go-containerregistry/pkg/name"
+	v1 "github.com/aaron-prindle/go-containerregistry/pkg/v1"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/random"
 )
 
 var (

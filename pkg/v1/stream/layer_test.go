@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/tarball"
+	v1 "github.com/aaron-prindle/go-containerregistry/pkg/v1"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/tarball"
 )
 
 func TestStreamVsBuffer(t *testing.T) {

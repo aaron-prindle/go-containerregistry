@@ -22,8 +22,8 @@ import (
 	"testing"
 
 	"github.com/docker/docker/api/types"
-	"github.com/google/go-containerregistry/pkg/v1/daemon"
-	"github.com/google/go-containerregistry/pkg/v1/random"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/daemon"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/random"
 )
 
 type MockImageLoader struct{}
@@ -41,7 +41,7 @@ func init() {
 }
 
 func TestDaemon(t *testing.T) {
-	importpath := "github.com/google/go-containerregistry/cmd/ko"
+	importpath := "github.com/aaron-prindle/go-containerregistry/cmd/ko"
 	img, err := random.Image(1024, 1)
 	if err != nil {
 		t.Fatalf("random.Image() = %v", err)

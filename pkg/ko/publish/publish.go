@@ -15,8 +15,8 @@
 package publish
 
 import (
-	"github.com/google/go-containerregistry/pkg/name"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
+	"github.com/aaron-prindle/go-containerregistry/pkg/name"
+	v1 "github.com/aaron-prindle/go-containerregistry/pkg/v1"
 )
 
 // Interface abstracts different methods for publishing images.

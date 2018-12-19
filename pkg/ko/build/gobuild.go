@@ -26,9 +26,9 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/mutate"
-	"github.com/google/go-containerregistry/pkg/v1/tarball"
+	v1 "github.com/aaron-prindle/go-containerregistry/pkg/v1"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/mutate"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/tarball"
 )
 
 const appPath = "/ko-app"

@@ -24,8 +24,8 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/google/go-containerregistry/pkg/ko/build"
-	"github.com/google/go-containerregistry/pkg/ko/publish"
+	"github.com/aaron-prindle/go-containerregistry/pkg/ko/build"
+	"github.com/aaron-prindle/go-containerregistry/pkg/ko/publish"
 )
 
 // ImageReferences resolves supported references to images within the input yaml

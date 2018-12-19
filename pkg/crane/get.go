@@ -17,10 +17,10 @@ package crane
 import (
 	"fmt"
 
-	"github.com/google/go-containerregistry/pkg/authn"
-	"github.com/google/go-containerregistry/pkg/name"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/remote"
+	"github.com/aaron-prindle/go-containerregistry/pkg/authn"
+	"github.com/aaron-prindle/go-containerregistry/pkg/name"
+	v1 "github.com/aaron-prindle/go-containerregistry/pkg/v1"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/remote"
 )
 
 func getImage(r string) (v1.Image, name.Reference, error) {

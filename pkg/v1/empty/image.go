@@ -15,7 +15,7 @@
 package empty
 
 import (
-	"github.com/google/go-containerregistry/pkg/v1/random"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/random"
 )
 
 // Image is a singleton empty image, think: FROM scratch.

@@ -15,7 +15,7 @@
 package authn
 
 import (
-	"github.com/google/go-containerregistry/pkg/name"
+	"github.com/aaron-prindle/go-containerregistry/pkg/name"
 )
 
 type multiKeychain struct {

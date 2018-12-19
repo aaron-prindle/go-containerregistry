@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/google/go-containerregistry/pkg/authn"
-	"github.com/google/go-containerregistry/pkg/name"
+	"github.com/aaron-prindle/go-containerregistry/pkg/authn"
+	"github.com/aaron-prindle/go-containerregistry/pkg/name"
 )
 
 var Keychain authn.Keychain = &googleKeychain{}

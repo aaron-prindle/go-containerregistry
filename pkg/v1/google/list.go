@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/google/go-containerregistry/pkg/authn"
-	"github.com/google/go-containerregistry/pkg/name"
-	"github.com/google/go-containerregistry/pkg/v1/remote"
-	"github.com/google/go-containerregistry/pkg/v1/remote/transport"
+	"github.com/aaron-prindle/go-containerregistry/pkg/authn"
+	"github.com/aaron-prindle/go-containerregistry/pkg/name"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/remote"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/remote/transport"
 )
 
 // TODO: Can we somehow reuse the remote options here?

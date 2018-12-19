@@ -19,9 +19,9 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/google/go-containerregistry/pkg/name"
-	"github.com/google/go-containerregistry/pkg/v1/google"
-	"github.com/google/go-containerregistry/pkg/v1/types"
+	"github.com/aaron-prindle/go-containerregistry/pkg/name"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/google"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/types"
 )
 
 func mustRepo(s string) name.Repository {

@@ -20,10 +20,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/google/go-containerregistry/pkg/authn"
-	"github.com/google/go-containerregistry/pkg/name"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/remote"
+	"github.com/aaron-prindle/go-containerregistry/pkg/authn"
+	"github.com/aaron-prindle/go-containerregistry/pkg/name"
+	v1 "github.com/aaron-prindle/go-containerregistry/pkg/v1"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/remote"
 )
 
 // defalt is intentionally misspelled to avoid keyword collision (and drive Jon nuts).
@@ -82,7 +82,7 @@ func NewDefault(base string, options ...Option) (Interface, error) {
 
 // Publish implements publish.Interface
 func (d *defalt) Publish(img v1.Image, s string) (name.Reference, error) {
-	// https://github.com/google/go-containerregistry/issues/212
+	// https://github.com/aaron-prindle/go-containerregistry/issues/212
 	s = strings.ToLower(s)
 
 	// We push via tag (always latest) and then produce a digest because some registries do

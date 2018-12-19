@@ -23,9 +23,9 @@ import (
 	"io/ioutil"
 	"time"
 
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/partial"
-	"github.com/google/go-containerregistry/pkg/v1/types"
+	v1 "github.com/aaron-prindle/go-containerregistry/pkg/v1"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/partial"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/types"
 )
 
 // uncompressedLayer implements partial.UncompressedLayer from raw bytes.

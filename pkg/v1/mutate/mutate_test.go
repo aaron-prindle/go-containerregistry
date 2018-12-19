@@ -29,9 +29,9 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/stream"
-	"github.com/google/go-containerregistry/pkg/v1/tarball"
+	v1 "github.com/aaron-prindle/go-containerregistry/pkg/v1"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/stream"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/tarball"
 )
 
 func TestExtractWhiteout(t *testing.T) {

@@ -19,9 +19,9 @@ import (
 	"io"
 	"sync"
 
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/types"
-	"github.com/google/go-containerregistry/pkg/v1/v1util"
+	v1 "github.com/aaron-prindle/go-containerregistry/pkg/v1"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/types"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/v1util"
 )
 
 // UncompressedLayer represents the bare minimum interface a natively

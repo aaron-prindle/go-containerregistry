@@ -21,9 +21,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/google/go-containerregistry/pkg/name"
+	"github.com/aaron-prindle/go-containerregistry/pkg/name"
 
-	"github.com/google/go-containerregistry/pkg/v1/tarball"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/tarball"
 )
 
 var imagePath = "../tarball/testdata/test_image_1.tar"

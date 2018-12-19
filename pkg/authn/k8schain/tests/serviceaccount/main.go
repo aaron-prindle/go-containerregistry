@@ -17,10 +17,10 @@ package main
 import (
 	"log"
 
-	"github.com/google/go-containerregistry/pkg/name"
-	"github.com/google/go-containerregistry/pkg/v1/remote"
+	"github.com/aaron-prindle/go-containerregistry/pkg/name"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/remote"
 
-	"github.com/google/go-containerregistry/pkg/authn/k8schain"
+	"github.com/aaron-prindle/go-containerregistry/pkg/authn/k8schain"
 )
 
 func main() {

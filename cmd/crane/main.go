@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/google/go-containerregistry/pkg/crane"
+	"github.com/aaron-prindle/go-containerregistry/pkg/crane"
 )
 
 func main() {

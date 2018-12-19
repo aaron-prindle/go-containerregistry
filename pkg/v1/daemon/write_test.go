@@ -22,8 +22,8 @@ import (
 	"testing"
 
 	"github.com/docker/docker/api/types"
-	"github.com/google/go-containerregistry/pkg/name"
-	"github.com/google/go-containerregistry/pkg/v1/tarball"
+	"github.com/aaron-prindle/go-containerregistry/pkg/name"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/tarball"
 )
 
 type MockImageLoader struct{}

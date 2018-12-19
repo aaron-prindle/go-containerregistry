@@ -25,11 +25,11 @@ import (
 	"os"
 	"sync"
 
-	"github.com/google/go-containerregistry/pkg/name"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/partial"
-	"github.com/google/go-containerregistry/pkg/v1/types"
-	"github.com/google/go-containerregistry/pkg/v1/v1util"
+	"github.com/aaron-prindle/go-containerregistry/pkg/name"
+	v1 "github.com/aaron-prindle/go-containerregistry/pkg/v1"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/partial"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/types"
+	"github.com/aaron-prindle/go-containerregistry/pkg/v1/v1util"
 )
 
 type image struct {
